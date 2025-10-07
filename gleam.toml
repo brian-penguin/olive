@@ -1,28 +1,29 @@
 name = "olive"
-version = "2.0.0"
+version = "2.1.0"
 description = "A gleam dev proxy to enable live reload and smoother DX"
 licences = ["Apache-2.0"]
-repository = { type = "github", user = "fravan", repo = "olive" }
+repository = { type = "github", user = "brian-penguin", repo = "olive" }
 # links = []
 #
 # For a full reference of all the available options, you can have a look at
 # https://gleam.run/writing-gleam/gleam-toml/.
 
 [dependencies]
-gleam_erlang = ">= 1.0.0 and < 2.0.0"
+gleam_erlang = ">= 1.0.0 and < 3.0.0"
 gleam_otp = ">= 1.0.0 and < 2.0.0"
 gleam_http = ">= 3.7.2 and < 5.0.0"
-gleam_httpc = ">= 4.1.0 and < 5.0.0"
+gleam_httpc = ">= 4.1.0 and < 6.0.0"
 gleam_stdlib = ">= 0.50.0 and < 2.0.0"
 shellout = ">= 1.6.0 and < 2.0.0"
 mist = ">= 5.0.0 and < 6.0.0"
-wisp = ">= 1.5.3 and < 2.0.0"
-fs = ">= 8.6.1 and < 9.0.0"
+wisp = ">= 2.0.0 and < 3.0.0"
+fs = ">= 8.6.1 and < 12.0.0"
 simplifile = ">= 2.2.0 and < 3.0.0"
-tom = ">= 1.1.1 and < 2.0.0"
+tom = ">= 1.1.1 and < 3.0.0"
 clip = ">= 1.0.0 and < 2.0.0"
 argv = ">= 1.0.2 and < 2.0.0"
 filepath = ">= 1.1.0 and < 2.0.0"
 
 [dev-dependencies]
 gleeunit = ">= 1.0.0 and < 2.0.0"
+
